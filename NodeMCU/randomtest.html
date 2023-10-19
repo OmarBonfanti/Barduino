@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="sidebar" id="sidebar">
+    <!-- Your sidebar content goes here -->
+  </div>
+  <button id="openButton">Open Sidebar</button>
+  <script src="script.js"></script>
+</body>
+
+<script>
+const sidebar = document.getElementById('sidebar');
+const openButton = document.getElementById('openButton');
+
+openButton.addEventListener('click', () => {
+  // Open the sidebar by setting its 'left' property to 0
+  sidebar.style.left = '0';
+});
+
+// Close the sidebar when clicking outside of it
+document.addEventListener('click', (event) => {
+  if (event.target !== sidebar && event.target !== openButton) {
+    // Check if the click is outside the sidebar and the openButton
+    sidebar.style.left = '-250px'; // Close the sidebar by setting its 'left' property to its initial position
+  }
+});
+
+// Prevent clicks inside the sidebar from closing it
+sidebar.addEventListener('click', (event) => {
+  event.stopPropagation();
+});
+
+
+</script>
+
+</html>
+
+<style>
+/* Add your sidebar styles here */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: -250px; /* Initially hidden */
+  transition: left 0.3s;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+
+
+</style>

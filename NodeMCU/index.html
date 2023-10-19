@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Top Bar</title>
+    <style>
+        body {
+            min-width: 100%;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+
+        #topbar {
+            background-image: url("Isometric_Scifi_Buildings_a_oriziontal_logo_whit_text_Barduino_2.jpg");
+            background-position: center ;
+            
+            background-size:cover;
+            
+            
+        }
+
+       
+
+        #button {
+            font-size: 18px;
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: -250px;
+            background-color: #333;
+            transition: 0.3s;
+            padding-top: 60px;
+            color: white;
+        }
+
+        #sidebar a {
+            padding: 10px 25px;
+            text-decoration: none;
+            font-size: 22px;
+            color: #999;
+            display: block;
+            transition: 0.2s;
+        }
+
+        #sidebar a:hover {
+            color: white;
+        }
+
+        #content {
+            transition: margin-left .3s;
+            padding: 16px;
+            margin-left: 0;
+        }
+
+        #openButton {
+           
+            position: top;
+            top: 20px;
+            left: 20px;
+            font-size: 30px;
+            background-color:transparent;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #openButton:hover {
+           
+            background-color: #555;
+        }
+        .container {
+            margin-top: 10px;
+            display: flex;
+        }
+
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .image {
+            max-width: 90%;
+            height: auto;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .expand-text {
+            display: none;
+        }
+
+        .title:hover + .expand-text {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <table>
+            <tr>
+                <th>
+                    <img class="image" src="vodkatonic.jpeg" alt="Image">
+                    <div class="title">VodkaTonic</div>
+                    <div class="expand-text">
+                        This is the expandable text for Title 1. You can add more content here.
+                    </div>
+        
+                </th>
+                <th> 
+                    <img class="image" src="cubalibre.jpeg" alt="Image">
+                    <div class="title">CubaLibre</div>
+                    <div class="expand-text">
+                        This is the expandable text for Title 1. You can add more content here.
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <td>Data 1, Row 1</td>
+                <td>Data 2, Row 1</td>
+            </tr>
+            <tr>
+                <td>Data 1, Row 2</td>
+                <td>Data 2, Row 2</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </table>
+
+    <script>
+        
+        function yourButtonClickFunction() {
+            // Add your button click functionality here
+        }
+    </script>
+</body>
+</html>
