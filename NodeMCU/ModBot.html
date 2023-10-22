@@ -1,0 +1,183 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barduino</title>
+    <style>
+        body {
+            display: flex;
+            flex-flow: column;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .topspan {
+            background-color: #333;
+            color: #fff;
+            text-align: left;
+            padding: 10px;
+            background-image: url("Isometric_Scifi_Buildings_a_oriziontal_logo_whit_text_Barduino_2.jpg");
+            background-position: center ;
+            
+            background-size:cover;
+        }
+
+        
+        .column {
+            width: 48%; /* Adjust the width as needed */
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #openButton {
+           
+           position: top ;
+           
+           top: 20px;
+           left: 20px;
+           font-size: 30px;
+           background-color:transparent;
+           color: white;
+           padding: 10px 15px;
+           border: none;
+           cursor: pointer;
+           align-content: left;
+       }
+
+       .page{
+        display: flex; 
+        flex-flow: column;
+        row-gap: 15vh;
+       }
+
+       .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;  
+        }
+
+        .col{
+            position: center;
+
+        }
+        .col select {
+            min-width: 30vw;
+        }
+
+    </style>
+
+   
+
+</head>
+
+
+
+<body >
+    
+    <div class="topspan">
+        <button  id="openButton" onclick="OpenSideber()">☰</button>
+    </div>
+    
+
+    
+    <div id="Page" class="page">
+
+    <div class="container">
+    
+     <div class="col"  >
+        <label for="select1" class="test">Bottiglia 1:</label><br>
+        <select class="test" id="select1" name="select1">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+          <option value="option4">Option 4</option>
+        </select><br>
+     </div>
+    
+     <div class="col" >
+        <label for="select2" >Bottiglia 2:</label><br>
+        <select id="select2" name="select2">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+          <option value="option4">Option 4</option>
+        </select><br>
+     </div>
+    
+    </div>
+    
+    <div class="container">
+    
+     <div class="col">
+        <label for="select3">Bottiglia 3:</label><br>
+        <select id="select3" name="select3">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+          <option value="option4">Option 4</option>
+        </select><br>
+     </div>
+    
+     <div class="col">
+        <label for="select4">Bottiglia 4:</label><br>
+        <select id="select4" name="select4">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+          <option value="option4">Option 4</option>
+        </select><br>
+     </div>
+    </div>
+     
+    <div class="container">
+    
+        <div class="col">
+           <label for="select3">Bottiglia 5:</label><br>
+           <select id="select3" name="select3">
+             <option value="option1">Option 1</option>
+             <option value="option2">Option 2</option>
+             <option value="option3">Option 3</option>
+             <option value="option4">Option 4</option>
+           </select><br>
+        </div>
+       
+        <div class="col">
+           <label for="select4">Bottiglia 6:</label><br>
+           <select id="select4" name="select4">
+             <option value="option1">Option 1</option>
+             <option value="option2">Option 2</option>
+             <option value="option3">Option 3</option>
+             <option value="option4">Option 4</option>
+           </select><br>
+        </div>
+       </div>
+
+       <div class="container">
+    
+        <div class="col">
+           <label for="select3">Bottiglia 7:</label><br>
+           <select id="select3" name="select3">
+             <option value="option1">Option 1</option>
+             <option value="option2">Option 2</option>
+             <option value="option3">Option 3</option>
+             <option value="option4">Option 4</option>
+           </select><br>
+        </div>
+       
+        <div class="col">
+           <label for="select4">Bottiglia 8:</label><br>
+           <select id="select4" name="select4">
+             <option value="option1">Option 1</option>
+             <option value="option2">Option 2</option>
+             <option value="option3">Option 3</option>
+             <option value="option4">Option 4</option>
+           </select><br>
+        </div>
+       </div>
+    
+    </div>
+
+
+</body>
