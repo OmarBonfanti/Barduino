@@ -62,9 +62,47 @@
             position: center;
 
         }
-        .col select {
-            min-width: 30vw;
-        }
+        /* Style the select container */
+
+        select {
+    width: 100%; /* Set the width as desired */
+    padding: 10px; /* Add padding for spacing */
+    font-size: 16px; /* Adjust font size */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+  }
+
+  /* Style when the select is focused */
+  select:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove the default focus outline */
+  }
+
+  /* Style the dropdown arrow icon */
+  select::after {
+    content: '\25BC'; /* Unicode arrow down character */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevent clicking on the arrow */
+  }
+
+  /* Style the dropdown options */
+  select option {
+    padding: 10px; /* Add padding for spacing */
+    background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+  }
+
+  /* Style when an option is hovered */
+  select option:hover {
+    background-color: #007bff; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+  }
+
 
     </style>
 
@@ -88,11 +126,8 @@
     
      <div class="col"  >
         <label for="select1" class="test">Bottiglia 1:</label><br>
-        <select class="test" id="select1" name="select1">
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-          <option value="option4">Option 4</option>
+        <select class="test" id="mySelect" name="select1">
+         
         </select><br>
      </div>
     
@@ -179,5 +214,19 @@
     
     </div>
 
+    <script>
+      // Your array of elements
+      var elementsArray = ["Option 1", "Option 2", "Option 3", "Option 4", "Option 5"];
 
+      // Get a reference to the select element
+      var select = document.getElementById("mySelect");
+
+      // Populate the select with options from the array
+      for (var i = 0; i < elementsArray.length; i++) {
+          var option = document.createElement("option");
+          option.text = elementsArray[i];
+          option.value = elementsArray[i]; // You can set a different value if needed
+          select.appendChild(option);
+      }
+  </script>
 </body>

@@ -1,0 +1,30 @@
+Water
+Coffee
+Tea (e.g., black tea, green tea, herbal tea)
+Soda (e.g., cola, lemon-lime, root beer)
+Juice (e.g., orange juice, apple juice, cranberry juice)
+Milk (e.g., cow's milk, almond milk, soy milk)
+Hot Chocolate
+Lemonade
+Iced Tea
+Sports Drinks (e.g., Gatorade)
+Energy Drinks (e.g., Red Bull, Monster)
+Smoothies (e.g., fruit smoothies, protein shakes)
+Beer (e.g., lager, ale, stout)
+Wine (e.g., red wine, white wine, rosé)
+Champagne
+Cocktails (e.g., Margarita, Mojito, Martini)
+Whiskey
+Vodka
+Rum
+Tequila
+Brandy
+Sparkling Water
+Fruit Punch
+Iced Coffee
+Kombucha
+Coconut Water
+Cider (e.g., apple cider)
+Horchata
+Sake
+Mocktails (non-alcoholic cocktails)
