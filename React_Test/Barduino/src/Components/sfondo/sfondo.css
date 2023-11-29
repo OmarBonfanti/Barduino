@@ -1,0 +1,28 @@
+.full-page {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.myDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    linear-gradient(
+      to top left,
+      #ff6386,
+      rgba(255, 153, 150, 0),
+      #9cbc33
+    ),
+    linear-gradient(
+      to top right, 
+      #ff9f39, 
+      rgba(255, 153, 150, 0),
+      #01acb9)
+      rgba(255, 153, 150, 1);
+}
