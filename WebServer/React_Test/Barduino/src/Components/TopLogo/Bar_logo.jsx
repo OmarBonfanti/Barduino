@@ -1,9 +1,13 @@
 import "./Bar_logo.css";
 
+
+ //<img src="LOGO_BAR_2.png" alt="logo" />
 const Bar_logo = () => {
   return (
     <>
-      <div className="logo"></div>
+      <div className="logo"/>
+     
+    
     </>
   );
 };
