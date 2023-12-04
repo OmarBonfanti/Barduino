@@ -1,13 +1,11 @@
 import "./MainDrink.css"
+import jagerbomb from '/public/jagerbomb.png'; // adjust the path and file extension as needed
 
 const MainDrink = () => {
   return (
-    <table className="table">
-      <tr>
-        <td ><div className="square"></div></td>
-        <td ><div className="square"></div></td>
-      </tr>
-    </table>
+    <div className="square">
+      <img className="drink" src={jagerbomb} alt="Jagerbomb" />
+    </div>
   );
 };
 
