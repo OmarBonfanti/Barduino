@@ -1,0 +1,14 @@
+.square {
+    height: 127px;
+    left: 50%;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 127px;
+    background-color: white;
+    border-radius: 10px; /* adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
