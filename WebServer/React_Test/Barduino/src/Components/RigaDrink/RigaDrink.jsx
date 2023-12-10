@@ -7,6 +7,21 @@ const RigaDrink = () => {
     <div className="divRigaDrink">
     <Drink/>
     <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/><Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
     
     </div>
 

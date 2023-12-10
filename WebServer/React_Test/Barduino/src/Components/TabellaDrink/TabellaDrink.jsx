@@ -6,7 +6,7 @@ const TabellaDrink = () => {
     <div className="divTabelDrink">
       
       <RigaDrink/>
-      
+     
     </div>
   );
 };

@@ -14,7 +14,10 @@
 
 .divUnderLogo {
   position: relative;
-  top: 35%; /* Adjust this value to match the height of the element above */
+  top: 25%; /* Adjust this value to match the height of the element above */
   width: 100%;
-  height: a /* Calculate the remaining height */
+  height: 75%;
+  overflow: auto;
+  
 }
+

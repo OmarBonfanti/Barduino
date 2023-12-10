@@ -1,5 +1,6 @@
 import "./Bar_logo.css";
-import TabellaDrink from '../TabellaDrink/TabellaDrink.jsx';
+
+import RigaDrink from "../RigaDrink/RigaDrink.jsx";
 
  //<img src="LOGO_BAR_2.png" alt="logo" />
 const Bar_logo = () => {
@@ -7,7 +8,7 @@ const Bar_logo = () => {
     <>
       <div className="divlogo"/>
       <div className="divUnderLogo">
-        <TabellaDrink/>
+        <RigaDrink/>
       </div>
       
     

@@ -5,7 +5,7 @@ import TextDrink from "../TextDrink/TextDrink"
 function SquareDrink() {
   return (
     <div className="square">
-      <FotoDrink/>
+         <FotoDrink/>
         <TextDrink/>
     </div>
   );
