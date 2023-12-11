@@ -2,6 +2,7 @@
 
 import './index.css';
 import Sfondo from './Components/Sfondo/sfondo.jsx';
+import Bar_logo from './Components/Logo/Bar_logo.jsx';
 
 
 import { StrictMode } from 'react';
@@ -15,7 +16,7 @@ if (root !== null) {
     <StrictMode>
 
       <Sfondo/>
-      
+      <Bar_logo/>
 
       
       

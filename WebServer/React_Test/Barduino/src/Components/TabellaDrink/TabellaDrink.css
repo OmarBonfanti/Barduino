@@ -5,6 +5,6 @@
     
     display: flex;
     flex-flow: row wrap;
-    overflow-y: scroll;
+    
     /* Add your other styles here */
 }

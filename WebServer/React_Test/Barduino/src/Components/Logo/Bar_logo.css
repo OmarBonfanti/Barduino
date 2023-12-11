@@ -1,23 +1,27 @@
 .divlogo {
   width: 100%;
-  height: 25%; /* Auto expand in height */
+  height: 25vh; /* Auto expand in height */
   background-image: url('/Logo_Def.png'); /* Add the URL to your image */
   background-size: cover; /* Ensures the image covers the entire Navbar */
   background-position: center; /* Centers the image */
   
   color: white;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 1000;
+  
 }
 
 .divUnderLogo {
-  position: relative;
+  height: 100%;
   top: 25%; /* Adjust this value to match the height of the element above */
   width: 100%;
-  height: 75%;
-  overflow: auto;
   
+ 
+}
+.scroll{
+  overflow-y: scroll;
+  max-height: 100vh;
 }
 

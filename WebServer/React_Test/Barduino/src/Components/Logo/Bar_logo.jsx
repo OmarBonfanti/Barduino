@@ -6,12 +6,14 @@ import RigaDrink from "../RigaDrink/RigaDrink.jsx";
 const Bar_logo = () => {
   return (
     <>
+      <div className="scroll">
+
       <div className="divlogo"/>
       <div className="divUnderLogo">
         <RigaDrink/>
       </div>
-      
-    
+       </div>
+     
     </>
   );
 };

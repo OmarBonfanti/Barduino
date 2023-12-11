@@ -1,10 +1,11 @@
 .square {
-    height: 127px;
+    width: 30vw;
+    height: 30vw;
     left: 50%;
     position: relative;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 127px;
+    
     background-color: white;
     border-radius: 10px; /* adjust as needed */
     display: flex;

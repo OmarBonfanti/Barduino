@@ -4,7 +4,7 @@
     margin-top: 10px;
     color: #000000;
     font-family: "LEMON MILK-Bold", Helvetica;
-    font-size: 26px;
+    font-size: 100%;
     font-weight: 700;
     height: 70px;
     left: 0;
@@ -12,7 +12,8 @@
     line-height: 25px;
     position: absolute;
     text-align: center;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
-    overflow-wrap: break-word; /* Add this line */
+    overflow-wrap: break-word; 
+    
 }

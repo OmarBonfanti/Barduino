@@ -10,7 +10,27 @@ const RigaDrink = () => {
     <Drink/>
     <Drink/>
     <Drink/>
-    <Drink/><Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
+    <Drink/>
     <Drink/>
     <Drink/>
     <Drink/>
