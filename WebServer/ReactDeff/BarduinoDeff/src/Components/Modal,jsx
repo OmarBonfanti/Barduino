@@ -1,0 +1,42 @@
+import React, { useState } from 'react';
+import Modal from 'react-modal';
+
+// Make sure to set appElement to your root element in the DOM
+Modal.setAppElement('#root');
+
+const MyModal = ({ isOpen, onRequestClose }) => {
+  return (
+    <Modal
+      isOpen={isOpen}
+      onRequestClose={onRequestClose}
+      contentLabel="Example Modal"
+    >
+      <h2>Modal Content</h2>
+      <p>Hello, I'm a modal!</p>
+      <button onClick={onRequestClose}>Close Modal</button>
+    </Modal>
+  );
+};
+
+const App = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
+  return (
+    <div>
+      <h1>Hello React Modal!</h1>
+      <button onClick={openModal}>Open Modal</button>
+
+      <MyModal isOpen={isModalOpen} onRequestClose={closeModal} />
+    </div>
+  );
+};
+
+export default App;

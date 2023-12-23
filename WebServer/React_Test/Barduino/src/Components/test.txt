@@ -1,8 +1,8 @@
 
 
 import './index.css';
-import Sfondo from './Components/aFATTO/Sfondo/sfondo.jsx';
-import Bar_logo from './Components/aFATTO/Logo/Bar_logo.jsx';
+import Sfondo from './Components/Sfondo/sfondo.jsx';
+import Bar_logo from './Components/Logo/Bar_logo.jsx';
 
 
 import { StrictMode } from 'react';

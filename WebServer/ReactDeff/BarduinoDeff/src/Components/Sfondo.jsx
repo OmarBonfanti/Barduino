@@ -1,0 +1,34 @@
+import styled, { css } from 'styled-components';
+
+const Sfondo = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: 
+    linear-gradient(
+      to top left,
+      #ff6386,
+      rgba(255, 153, 150, 0),
+      #9cbc33
+    ),
+    linear-gradient(
+      to top right, 
+      #ff9f39, 
+      rgba(255, 153, 150, 0),
+      #01acb9)
+      rgba(255, 153, 150, 1);
+`;
+
+function sfondo() {
+  return (
+    <>
+    <Sfondo/>  
+    </>
+  )
+}
+
+export default sfondo
