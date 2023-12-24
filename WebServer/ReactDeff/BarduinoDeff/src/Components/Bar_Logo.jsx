@@ -23,7 +23,7 @@ const Divlogo = styled.div`
     position: relative;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 0;
 `
 
 

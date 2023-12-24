@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import FotoDrink from './FotoDrink';
 import TextDrink from './TextDrink';
 import React, { useState } from 'react';
-import Modal from 'react-modal';
+import MyModal from './Modal';
 
 
 const Square = styled.div`
@@ -20,19 +20,6 @@ const Square = styled.div`
     align-items: flex-start;
 `;
 
-const MyModal = ({ isOpen, onRequestClose }) => {
-    return (
-      <Modal
-        isOpen={isOpen}
-        onRequestClose={onRequestClose}
-        contentLabel="Example Modal"
-      >
-        <h2>Modal Content</h2>
-        <p>Hello, I'm a modal!</p>
-        <button onClick={onRequestClose}>Close Modal</button>
-      </Modal>
-    );
-};
 
 
 
